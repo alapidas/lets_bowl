@@ -15,6 +15,7 @@ make test
 ```
 
 ## TODOs:
+- Document the data format for REST api (refer to tests + `routes.py` for now)
 - Admin/SU login to modify scores/frames after the fact
 - The ID gen in the mixin is a hack - a real ORM would probably take care of this
 - Limitation - we're only allowing POSTs of full frames.  The current player on their current frame will be in flight until it's posted (as opposed to POSTing individual shots).

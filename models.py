@@ -17,6 +17,7 @@ class RestableMixin(object):
     have in a real app, like IDs.
 
     TODO: Make this more of a mixin than a base class to avoid MRO issues
+    with multiple inheritance
     """
 
     # Serializable attribtues
