@@ -29,3 +29,6 @@ make test
 
 ## Limitations:
 - Everything is in memory - the bowling alley has a robust backup generator, but should that fail, all data will be lost
+
+## Bugs:
+- This does not properly handle the end of a game if a strike or a spare is struck in the last frame
